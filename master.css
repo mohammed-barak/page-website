@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    font-family: Arial, sans-serif; */
+}
+header{
+    background-color: #e7e9e6;
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #ddd;
+   
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+.navbar{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+}
+nav  ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+.log-btn{
+    
+    padding: 10px 30px;
+    border: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.login{
+    color: #333;
+    background-color: lightslategrey;
+    padding: 10px 30px;
+    border: 0;
+    margin: 0;
+    border-radius: 10px;
+   
+}
+.Register{
+    background-color: #1f8e44;
+    padding: 10px 30px;
+    border: 0;
+    margin: 0;
+    border-radius: 10px;
+}
+.top-hero{
+    justify-content: center;
+    background-color:  #e3f0e7;
+}
+.hero {
+    background-color: #e3f0e7;
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(23, 103, 58);
+}
+.hero-btn{
+    text-align: center;
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+}
+.image img{
+    padding-left: 500px;
+    width: 750px;
+    
+    background-position:bottom;
+ 
+}
+.get-start{
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 10px;
+    
+}
+.demo {
+    background-color: #fff;
+    border: 1px solid #1f8e44;
+    color: #1f8e44;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.featrure{
+    padding-inline-start:50px ;
+}
+.bank h1{
+    font-size:2.5em;
+    text-align: center;
+}
+.bank{
+    font-size:2.5em;
+    text-align: center;
+    padding: 50px;
+    border: 1px;
+}
+.feature-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    
+}
+.item{
+    background-color: #e3f0e7;
+    padding: 30px;
+    max-width: 250px;
+    border-radius: 10px;
+}
+.empower{
+    background-color: #173028;
+    gap: 20px;
+
+    display: flex;
+    color: #e3f0e7;
+    gap:20px;
+    
+}
+.finance h1{
+    font-size: 3em;
+}
+.finance p{
+    width: 650px;
+}
+.empower img{
+    border-radius: 10px;
+    height: 500px;
+}
+.top-item{
+    display: flex;
+    gap: 30px;
+  
+}
+.item2{
+    background-color: #173028;
+    padding: 30px;
+   width: 250px;
+    border-radius: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+   
+  
+    
+}
+.item2 p{
+    width: 250px;
+}
+.customer{
+    display: flex;
+}
+.min{
+    width: 350px;
+    padding: 25px;
+}
+.min h1{
+font-size: 2.5em;
+}
+.min1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+   justify-self:center;
+   gap:20px;
+} 
+.min2{
+    border-radius: 10px;
+    box-shadow: rgb(45, 61, 78) 0px 20px 30px -10px;
+    width: 250px;
+    padding: 20px;
+    height: 250px;
+
+
+}
+
+
